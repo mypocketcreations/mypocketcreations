@@ -1,0 +1,218 @@
+/* if screen width is <300 dips */	
+	
+	body, h1, p {
+	  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	  font-weight: normal;
+	  text-align: center;
+	  margin: auto;  
+	}
+	
+	.container {
+	  /* background-color: white; */	  	  
+	  min-width: 300px; 
+	  
+	}
+	
+	.bannerContainer{
+		background-color: #8FD8D2;
+		/* height: 200px; */
+		width: 100%;
+		overflow:hidden;
+		
+		/* margin-bottom: 0px; */
+	}
+
+	.mypocketcreationsBanner{
+		
+		width: 100%;
+		max-width: 100%;
+		vertical-align: top;
+		float:left;
+		
+		background-color: #8FD8D2;
+	}
+	
+	.menuTop{
+		height: 35px;
+		width: 100%;
+		/*background-color: #dcb239;*/
+		/*background-color: #fedcd2;*//*peach*/
+		color: white;
+		font-weight: bold;
+		margin-top:30px;
+		text-align:right;
+	}
+	
+	.mainContainer {
+		clear:both;
+		overflow:auto;
+		background-color: white;
+	}
+	
+	.mainContent{
+		float:left;
+		border: solid 1px black;
+		
+		margin-left: 10px;
+		margin-top:10px;
+		
+		width:95%;
+		/*height: 350px;*/
+		
+		font-size: 30px;
+	}	
+	
+	.mainContentBgImg {
+		width:100%;
+		background-color: yellow;		
+	}
+	
+	.footer{
+		background-color: #EEEEEE;
+		margin-top:5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	h1 {
+	  font-size: 30px;
+	  font-weight: 300;
+	  margin: 0 0 20px 0;
+	}
+	
+	a {
+	  color: white;
+	  text-decoration: none;
+	}
+
+@media screen and (min-width: 650px){ /* if screen width is >650 dips */
+		
+	.bannerContainer{		
+		width: 100%;		
+		background-color: #8FD8D2;
+	}
+	
+	.mypocketcreationsBanner{
+		width: 100%;
+		
+		vertical-align: top;		
+		background-color: #8FD8D2;
+		max-width:600px;
+		max-height:200px;
+	}
+	
+	
+	
+	.mainContainer {
+		clear:both;
+		overflow:auto;
+		background-color: white;
+	}
+	
+	.mainContent{
+		float:left;
+		border: solid 1px black;
+		
+		margin-left:5px;
+		margin-top:10px;
+		
+		width: calc(100% - 200px); /* calculates 100% width minus the ads_left set size including margins and borders
+		/*height: 350px;*/
+		
+		font-size: 30px;
+	}
+	
+	.mainContentBgImg {
+		width:100%;
+		background-color: yellow;	
+	}
+	.banner_left{		
+		
+		float:left;
+		border: solid 1px black;		
+		width: 160px;
+		height: 600px;
+		margin: 10px 10px 10px 10px;
+		
+		/*background-color: #c2efee ;*/
+		background:URL('images/Luceme/sampleAd.jpg');		
+	}	
+	
+	h1 {
+	  font-size: 30px;
+	  font-weight: 300;
+	  margin: 0 0 20px 0;
+	}
+}
+@media screen and (min-width: 1200px){ /* if screen width is >1200 dips */			
+		
+	.bannerContainer{
+		/* background-color: #eee; */
+		/* height: 200px; */
+		width: 100%;
+		height:150px;		
+		background-color: #8FD8D2;
+	}
+		
+	.mypocketcreationsBanner{
+		width: 100%;
+		
+		vertical-align: top;		
+		background-color: #8FD8D2;
+		max-width:400px;
+		
+	}
+	
+	.mainContainer {
+		clear:both;
+		overflow:auto;
+		background-color: white;
+	}
+	
+	.banner_left{		
+		
+		float:left;
+		border: solid 1px black;		
+		width: 160px;
+		height: 600px;
+		margin: 10px 10px 10px 10px;
+		
+		/*background-color: #c2efee ;*/
+		background:URL('images/Luceme/sampleAd.jpg');	
+		
+	}
+	.mainContent{
+		float:left;
+		border: solid 1px black;
+		
+		
+		margin-left: 10px;
+		margin-top:10px;
+		
+		width: calc(100% - 380px);
+		/*height: 350px;*/
+		
+		font-size: 30px;
+	}
+	
+	.banner_right{		
+		
+		float:right;
+		border: solid 1px black;		
+		width: 160px;
+		height: 600px;
+		margin: 10px 10px 10px 10px;
+		
+		/*background-color: #c2efee ;*/
+		background:URL('images/Luceme/sampleAd.jpg');		
+		
+	}
+	
+	h1 {
+	  font-size: 48px;
+	  font-weight: 300;
+	  margin: 0 0 20px 0;
+	}
+	
+
+}
