@@ -135,7 +135,7 @@
 		margin: 10px 10px 10px 10px;
 		
 		/*background-color: #c2efee ;*/
-		background:URL('images/Luceme/sampleAd.jpg');		
+		background:URL('../../images/Luceme/sampleAd.jpg');
 	}	
 	
 	h1 {
@@ -178,7 +178,7 @@
 		margin: 10px 10px 10px 10px;
 		
 		/*background-color: #c2efee ;*/
-		background:URL('images/Luceme/sampleAd.jpg');	
+		background:URL('../../images/Luceme/sampleAd.jpg');	
 		
 	}
 	.mainContent{
@@ -204,7 +204,7 @@
 		margin: 10px 10px 10px 10px;
 		
 		/*background-color: #c2efee ;*/
-		background:URL('images/Luceme/sampleAd.jpg');		
+		background:URL('../../images/Luceme/sampleAd.jpg');		
 		
 	}
 	
