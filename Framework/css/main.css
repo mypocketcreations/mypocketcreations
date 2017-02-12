@@ -85,7 +85,7 @@
 	  text-decoration: none;
 	}
 
-@media screen and (min-width: 650px){ /* if screen width is >650 dips */
+@media only screen and (min-width: 650px){ /* if screen width is >650 dips */
 		
 	.bannerContainer{		
 		width: 100%;		
@@ -144,7 +144,7 @@
 	  margin: 0 0 20px 0;
 	}
 }
-@media screen and (min-width: 1200px){ /* if screen width is >1200 dips */			
+@media only screen and (min-width: 1200px){ /* if screen width is >1200 dips */			
 		
 	.bannerContainer{
 		/* background-color: #eee; */
